@@ -93,6 +93,7 @@ export const Sidebar = ({
             key={organization.id}
             isActive={activeOrganization?.id == organization.id}
             isExpanded={expanded[organization.id]}
+            // @ts-ignore
             organization={organization}
             onExpand={onExpand}
           />
